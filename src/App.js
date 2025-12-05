@@ -7,6 +7,8 @@ import VerificationForm from './components/auth/VerificationForm'
 import ForgotPasswordForm from './components/auth/ForgotPasswordForm'
 import ResetPasswordForm from './components/auth/ResetPasswordForm'
 import AuthPage from './auth/AuthPage'
+import DashboardContent from './pages/Dashboard'
+import MainDashboard from './pages/MainDashboard'
 
 function App() {
     return (
@@ -53,6 +55,20 @@ function App() {
                             </AuthPage>
                         }
                         path="/auth/new/password"
+                    />
+
+                    <Route
+                        element={
+                            <DashboardContent />
+                        }
+                        path="/dashboard"
+                    />
+
+                    <Route
+                        element={
+                            <MainDashboard />
+                        }
+                        path="/MainDashboard"
                     />
                 </Routes>
             </AuthProvider>
