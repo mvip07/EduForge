@@ -18,7 +18,7 @@ import PaymentsBilling from './pages/payments/Payments'
 import Certificates from './pages/certificates/Certificates'
 import ForumCommunity from './pages/forumCommunity/ForumCommunity'
 import ProgressAnalytics from './pages/progressAnalytics/ProgressAnalytics'
-import MessagesNotifications from './pages/MessageNotifications/MessageNotification'
+import MessagesNotifications from './pages/messageNotifications/MessageNotification'
 
 import Quizzes from './pages/coursePlayer/components/Quizzes'
 import Resources from './pages/coursePlayer/components/Resources'
