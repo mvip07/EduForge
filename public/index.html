@@ -1,35 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Online Course</title>
-        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    </head>
-    <body>
-        <div id="root"></div>
-
-        <script src="https://cdn.tailwindcss.com"></script>
-
-        <script>
-            tailwind.config = {
-                content: ['./src/**/*.{js,jsx,ts,tsx}'],
-                darkMode: 'class',
-                theme: {
-                    extend: {
-                        animation: {
-                            float: 'float 15s infinite linear',
-                        },
-                        keyframes: {
-                            float: {
-                                '0%': { transform: 'translateY(0) rotate(0deg)' },
-                                '100%': { transform: 'translateY(-1000px) rotate(720deg)' },
-                            },
-                        },
-                    },
-                },
-                plugins: [],
-            }
-        </script>
-    </body>
+<html lang="en" class="dark">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Online Course</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	</head>
+	<body>
+		<div id="root"></div>
+	</body>
 </html>

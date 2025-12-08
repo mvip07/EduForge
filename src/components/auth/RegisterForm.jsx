@@ -120,7 +120,7 @@ const RegisterForm = () => {
 
             <div className="text-center mt-6">
                 <span className="text-gray-600 dark:text-gray-400">Already have an account? </span>
-                <button onClick={() => navigate('/auth/login')} className="text-indigo-600 dark:text-indigo-400 hover:underline font-medium transition-colors duration-300">
+                <button onClick={() => navigate('/auth/login')} className="text-indigo-600 dark:text-indigo-400 hover:underline font-medium transition-colors duration-300 cursor-pointer">
                     Sign in
                 </button>
             </div>
